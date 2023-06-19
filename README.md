@@ -2,7 +2,9 @@
 
 In Remote Sensing, much effort has been dedicated to the Super-Resolution field to overcome physical sensors limitations, and Deep Learning has vastly surpassed Interpolation and Reconstruction based methods. Spatial and Multi-Spectral based methods are commonly pre-dominant in the field, and, motivated by the recent success stories of 3D spatial modeling with Implicit Neural Representation, new continuous image modeling methods are appearing. In this present work, we take advantage of already existing Spatial and Spectral techniques and Learning Continuous Image Representation with Local Implicit Image Function (LIIF) by adding the Temporal dimension into the problem, leaning towards a continuous interpolation model of space and time as a first approximation to the total modelization.
 
+<p align="center">
 <img src="https://user-images.githubusercontent.com/57730982/223851674-17124b5f-bafa-4a7c-84e2-2a42a2dc6420.png" width="520">
+</p>
 
 ## Open Earth Observation Hub (Web Service)
 
@@ -23,7 +25,6 @@ At the moment we are getting data from Element 84 open STAC API in which we can 
 ### Capabilities
 
 * Interactive map of the whole world.
-
 * Search multiple providers and all their offered products:
     * Element84 STAC API
         - Sentinel SL2 Cloud Optimized
@@ -37,18 +38,13 @@ At the moment we are getting data from Element 84 open STAC API in which we can 
     * Microsoft Planetary API
         - Copernicus DEM Glo-30
         - Copernicus DEM Glo-90
-
 * Filter by position (Latitude, Longitude) interactively with the Leaflet Map.
-
 * Filter by Date of Acquisition, by Start-date, End-date or both.
-
 * Pagination support for all the results.
-
 * Display General Info of the Constellation, the Mission, Date of Acquisition and pre-processing percentages of the contents of each result.
-
 * Download any band, metadata or thumbnail asynchronously at any time.
 
-## Cross-platform Processing Application
+## Cross-platform Processing Application
 
 A cross-platform application made for our own data processing. It is implemented with ElectronJS and it relies heavily with GDAL. This was built as a native application for the easy access to big local files.
 
@@ -74,11 +70,11 @@ A cross-platform application made for our own data processing. It is implemented
 * Create GIFs for multiple Interpolations.
 
 <p align="center">
-<img width="4776" alt="Group 12" src="https://user-images.githubusercontent.com/57730982/226204754-016d026e-0041-41b3-bf29-41a1875b53f4.png">
+<img width="450" alt="Group 12" src="https://user-images.githubusercontent.com/57730982/226204754-016d026e-0041-41b3-bf29-41a1875b53f4.png">
 </p>
 
 <p align="center">
-<img width="576" alt="Group 12" src="https://user-images.githubusercontent.com/57730982/226205234-2c7c7257-7f06-4677-a06c-e381e591cf18.gif">
+<img width="450" alt="Group 12" src="https://user-images.githubusercontent.com/57730982/226205234-2c7c7257-7f06-4677-a06c-e381e591cf18.gif">
 </p>
 
 * Functions to select any region by specifying a Bound of Coordinates:
