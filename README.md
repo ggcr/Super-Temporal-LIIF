@@ -94,9 +94,13 @@ A cross-platform application made for our own data processing. It is implemented
 
 ## Temporal LIIF
 
+In recent years efforts have been devoted to finding a continuous image representation, an example of this is Learning Continuous Image Representation with **Local Implicit Image Function (LIIF)**, where each image is represented as a two-dimensional feature map and the same decoding function for an entire image. Given any coordinate, based on the nearest neighboring features it will provide a new RGB value. 
 
+Traditionally we represented images with a two-dimensional array of pixels in a discrete manner, but LIIF is built from the promise that each pixel of an image can be described as a continuous function of its coordinates and its neighbour features. The main advantage of this is that with our new continuous representation we are no longer constrained by resolution, and we can generate **arbitrary resolutions** for any image, even for upsample scales that the model wasn’t even trained.
 
-### Other: Utils
+![Captura de pantalla 2023-06-19 a las 18 24 56](https://github.com/ggcr/TFG-CristianGutierrez/assets/57730982/2ecdb70d-b86c-48d5-a8f6-f82e4bfaf52a)
+
+### Other: Utils
 
 - Deployed `utils` folder which contains new updated scripts, re-wroted:
   - `utils/data-adaptation.py` Pre-process and data adaptation of histogram matching, made a mechanism to do all the adaptation and let the user choose the best with labels.
@@ -108,8 +112,14 @@ A cross-platform application made for our own data processing. It is implemented
   - `utils/temporal-difference.py` This script will calculate the difference between the Interpolation t value and the Ground Truth t value, we obtain an average of 2.9 days of difference, but we have an outlier.
   - `utils/results_crop.py` Script that will crop a small region of the image and calculate the PSNR for all the models in the project. This will be used to generate a figure for some interesting visual results.
 
-### results
+### Results
 
+We achieved the building, from the ground up, of an End-to-End Framework for Continous Space-Time Super-Resolution on Remote Sensing data.
 
+This process resulted in Temporal LIIF, a model capable of interpolating any scale and temporal factor, hence, an infinite interpolation model of space and time for Remote Sensing.
+
+<p align="center">
+<img width="650" alt="Group 12" src="https://github.com/ggcr/TFG-CristianGutierrez/assets/57730982/6479fca5-7024-4bac-960c-585a4031a65c">
+</p>
 
 ![result_models](https://github.com/ggcr/TFG-CristianGutierrez/assets/57730982/3b2e430f-1f40-4f05-8572-131e62ffa474)
