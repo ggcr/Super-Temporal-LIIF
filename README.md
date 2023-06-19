@@ -20,7 +20,10 @@ This is a multi-source API client for open-access and free Earth Observational D
 
 At the moment we are getting data from Element 84 open STAC API in which we can access Sentinel S2A Cloud Optimized. And the brand new Copernicus Data Space Ecosystem API from the European Space Agency (ESA) in which we can access Sentinel 1, Sentinel 2, Sentinel 3, Sentinel 5P, Landsat 5, Landsat 7 and Landsat 8 data.
 
-![](https://i.gyazo.com/0bcad2537c3e0321d53835fe8ce11df6.png)
+<p align="center">
+<img width="500" alt="Group 12" src="https://i.gyazo.com/0bcad2537c3e0321d53835fe8ce11df6.png">
+</p>
+
 
 ### Capabilities
 
@@ -58,11 +61,15 @@ A cross-platform application made for our own data processing. It is implemented
 
 * Square Selection and Crop for any number of samples asynchronously.
 
-[![Image from Gyazo](https://i.gyazo.com/d58733d31bf909d74c8459c20d112ee2.jpg)](https://gyazo.com/d58733d31bf909d74c8459c20d112ee2)
+<p align="center">
+<img width="500" alt="Group 12" src="https://i.gyazo.com/d58733d31bf909d74c8459c20d112ee2.jpg">
+</p>
 
 * Shapefile support for displaying the selected region and cropping.
 
-[![Image from Gyazo](https://i.gyazo.com/abf5a48f5354d315f797c6fe6230b5ff.png)](https://gyazo.com/abf5a48f5354d315f797c6fe6230b5ff)
+<p align="center">
+<img width="500" alt="Group 12" src="https://i.gyazo.com/abf5a48f5354d315f797c6fe6230b5ff.png">
+</p>
 
 * Multiple providers for the Map (OSM, OpenTopography, ESRI Satellite).
 
