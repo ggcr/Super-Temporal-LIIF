@@ -1,0 +1,270 @@
+<!--index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../node_modules/leaflet/dist/leaflet.css" />
+    <script src="../node_modules/leaflet/dist/leaflet.js" ></script>
+  </head>
+
+  <body>
+
+    <div>
+
+      <div class="container">
+        <div class="col1">
+          <div class="card">
+            <div class="card-title">
+              <p class="text-title">General Settings</p>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <div class="card-row">
+              <button onclick="reset()" id="delete-all">
+                Delete All
+              </button>
+              <p class="text-body">Reset the entire application state</p>
+            </div>
+            <div class="card-row">
+              <input checked type="checkbox" id="images" class="images-filter"/>
+              <label for="showImages" class="images-text">Show Input Thumbnail</label>
+            </div>
+            <div class="card-title">
+              <p class="text-title">Go to Bounds</p>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <div class="bounds-card">
+              <div class="bounds">
+                <div>
+                  <label for="masks" class="text-filter">Lat</label>
+                  <input type="text" id="lat1" class="bounds-input" />
+                  <label for="bands" class="text-filter">Lng</label>
+                  <input type="text" id="lng1" class="bounds-input" />
+                  <br/>
+                  <label for="masks" class="text-filter">Lat</label>
+                  <input type="text" id="lat2" class="bounds-input" />
+                  <label for="bands" class="text-filter">Lng</label>
+                  <input type="text" id="lng2" class="bounds-input" />
+                </div>
+                <div>
+                  <!-- <div class="create-square"> -->
+                  <!--   <input type="checkbox" id="selectAll" checked onchange="displayFilesFromLocalS()" /> -->
+                  <!--   <label for="selectAll" class="text-filter">Create Square</label> -->
+                  <!-- </div> -->
+                  <!-- <br/> -->
+                  <button onclick="gotobounds()" id="bounds-btn" class="gif-btn">
+                    GO TO BOUNDS
+                  </button>
+                </div>
+              </div>
+              <div class="pre-defined">
+                  <button onclick="location1()" id="bounds-btn" class="gif-btn">
+                    Caracas
+                  </button>
+                  <button onclick="location2()" id="bounds-btn" class="gif-btn">
+                    Delta
+                  </button>
+                  <button onclick="location3()" id="bounds-btn" class="gif-btn">
+                    Holanda
+                  </button>
+              </div>
+            </div>
+          </div>
+          <div class="card files">
+            <div class="card-title">
+              <p class="text-title">Input Files</p>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5A3.375 3.375 0 006.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0015 2.25h-1.5a2.251 2.251 0 00-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 00-9-9z" />
+              </svg>
+            </div>
+            <p class="text-card">Drag and drop a folder with satellite data.<br/><br/>The application will parse all the files recursively and extract the location of each sample and display it into the Map.<br/><br/>You will then be able to filter them and apply operations to the desired data.</p>
+
+            <p class="text-title">Filters</p>
+
+            <p class="text-card">Filter by Masks, Bands or All the files (both unchecked)</p>
+
+            <div class="inFilters">
+              <div>
+                <input type="checkbox" id="masks" onchange="displayFilesFromLocalS()" />
+                <label for="masks" class="text-filter">Masks</label>
+                <input type="checkbox" id="bands" onchange="displayFilesFromLocalS()"/>
+                <label for="bands" class="text-filter">Bands</label>
+                <input type="checkbox" id="dem" onchange="displayFilesFromLocalS()" />
+                <label for="dem" class="text-filter">DEM</label>
+              </div>
+              <div>
+                <input type="checkbox" id="selectAll" checked onchange="displayFilesFromLocalS()" />
+                <label for="selectAll" class="text-filter">Select All</label>
+              </div>
+            </div>
+
+            <ul id="file-content" class="file-content"></ul>
+          </div>
+        </div>
+
+        <div class="col2">
+          <div class="controls-container" id="controls">
+            <div class="controls-button" id="square" onclick="squareDraw()">
+              <div class="leaflet-control leaflet-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 7.5A2.25 2.25 0 017.5 5.25h9a2.25 2.25 0 012.25 2.25v9a2.25 2.25 0 01-2.25 2.25h-9a2.25 2.25 0 01-2.25-2.25v-9z" />
+                </svg>
+              </div>
+            </div>
+            <div class="controls-button">
+              <div class="leaflet-control leaflet-bar" id="shp-btn">
+                SHP
+              </div>
+            </div>
+            <div class="controls-button">
+              <div class="leaflet-control leaflet-bar" id="dem-btn">
+                DEM
+              </div>
+            </div>
+          </div>
+          <div id="map">
+            <canvas id="canvas"></canvas>
+          </div>
+
+        </div>
+
+        <div class="col3">
+          <div class="card">
+            <div class="card-title">
+              <p class="text-title">Operations</p>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+              </svg>
+            </div>
+
+            <p class="text-card"><strong>Input operations</strong> – Cropping is the only operation that operates with the filtered list of Input Files.</p>
+
+            <div class="card-row">
+              <button id="clip">
+                Crop
+              </button>
+              <p class="text-body">GDAL cropping of selected files</p>
+            </div>
+
+            <p class="text-card mtop"><strong>Output operations</strong> – Operate over the list of Output files.</p>
+
+            <div class="inter">
+              <div class="card-row">
+
+                <button onclick="interpolate()" id="interpolate">
+                  Interpolate
+                </button>
+
+                <select id="interpolation-method" class="interpolation-method">
+                  <option value="linear">Linear</option>
+                  <option value="cubic">Cubic</option>
+                  <option value="nearest">Nearest</option>
+                  <option value="slinear">S. Linear</option>
+                  <option value="quintic">Quintic</option>
+                </select>
+
+              </div>
+              <div class="card-row interpn">
+
+                <div>
+                  <label for="Spatial">Spatial</label>
+                  <select id="spatial-method" class="interpn-method">
+                    <option value="0">x0</option>
+                    <option value="1" selected>x1</option>
+                    <option value="2">x2</option>
+                    <option value="4">x4</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="Temp">Temporal</label>
+                  <select id="temporal-method" class="interpn-method">
+                    <option value="0">x0</option>
+                    <option value="1" selected>x1</option>
+                    <option value="2">x2</option>
+                    <option value="4">x4</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="Spectr">Spectal</label>
+                  <select id="spectral-method" class="interpn-method">
+                    <option value="0">x0</option>
+                    <option value="1" selected>x1</option>
+                    <option value="2">x2</option>
+                    <option value="4">x4</option>
+                  </select>
+                </div>
+
+              </div>
+            </div>
+            
+
+            <div class="card-row">
+              <button onclick="esrgan()" id="esrgan">
+                ESRGAN
+              </button>
+              <select id="esrgam-method" class="interpolation-method">
+                <option value="model-2">Model x2</option>
+                <option value="model-4">Model x4</option>
+              </select>
+            </div>
+            <p class="text-card mtop"><strong>Metrics</strong> – MAE, MSE, PSNR and SSIM.</p>
+            <div class="card-row">
+              <button id="metrics" onclick="generate_metrics()">
+                Generate Metrics
+              </button>
+              <p class="text-body">Input the High Res first.</p>
+            </div>
+          </div>
+
+
+          <div class="card files">
+            <div class="card-title">
+              <p class="text-title">Output Files</p>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+              </svg>
+            </div>
+            <p class="text-card">The vast majority of operations will be performed onto this files.</p>
+
+            <div class="outFilters">
+              <div>
+                <input type="checkbox" id="cropFilter" onchange="displayFilesFromLocalS()"/>
+                <label for="cropFilter" class="text-filter">Crop</label>
+                <input type="checkbox" id="interFilter" onchange="displayFilesFromLocalS()" />
+                <label for="interFilter" class="text-filter">Inter</label>
+              </div>
+              <div>
+                <button onclick="saveSelected()" id="save-btn" class="gif-btn">
+                  Save Selected
+                </button>
+                <button onclick="generateGif()" id="gif-btn" class="gif-btn">
+                  GIF
+                </button>
+              </div>
+            </div>
+
+            <ul id="out-content" class="file-content"></ul>
+          </div>
+        </div>
+
+    </div>
+
+    <!-- The logic of the app -->
+    <script src="view.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.path.drag@0.0.6/src/Path.Drag.min.js"></script>
+    <script src="leaflet.shapefile.js"></script>
+    <script src="shp.js"></script>
+
+    </script>
+  </body>
+</html>

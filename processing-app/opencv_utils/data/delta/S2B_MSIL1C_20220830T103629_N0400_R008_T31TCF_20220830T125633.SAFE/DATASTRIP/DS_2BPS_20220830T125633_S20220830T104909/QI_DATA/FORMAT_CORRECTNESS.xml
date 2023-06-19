@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Earth_Explorer_File xmlns="http://gs2.esa.int/DATA_STRUCTURE/olqcReport">
+    <Earth_Explorer_Header>
+        <Fixed_Header>
+            <File_Name>S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_FORMAT_CORRECTNESS_report.xml</File_Name>
+            <File_Description>Report produced by OLQC-SC</File_Description>
+            <Notes></Notes>
+            <Mission>S2B</Mission>
+            <File_Class>OPER</File_Class>
+            <File_Type>REP_OLQCPA</File_Type>
+            <Validity_Period>
+                <Validity_Start>UTC=2022-08-30T00:25:00</Validity_Start>
+                <Validity_Stop>UTC=2100-01-01T00:00:00</Validity_Stop>
+            </Validity_Period>
+            <File_Version>2</File_Version>
+            <Source>
+                <System>OLQC-SC</System>
+                <Creator>OLQC-SC</Creator>
+                <Creator_Version>05.01.00</Creator_Version>
+                <Creation_Date>UTC=2022-08-30T14:07:49</Creation_Date>
+            </Source>
+        </Fixed_Header>
+    </Earth_Explorer_Header>
+    <Data_Block type="xml">
+        <report gippVersion="1.0" globalStatus="PASSED" date="2022-08-30T14:07:49.750Z">
+            <checkList>
+                <parentID>S2B_OPER_GIP_OLQCPA_MPC__20220715T000042_V20220830T002500</parentID>
+                <name>FORMAT_CORRECTNESS</name>
+                <version>1.0</version>
+                <item url="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" className="PDI Level 1C Datastrip Folder" name="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" class="http://www.esa.int/s2#pdi_level_1c_datastrip_container"/>
+                <check>
+                    <inspection creation="2022-08-30T14:07:49.574Z" duration="43" execution="2022-08-30T14:07:49.696Z" id="schemaClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Schema Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : S2_Level-1C_Datastrip_Schema, Inventory_Metadata_Schema, OLQC_Report_Schema</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:49.753Z" duration="8" execution="2022-08-30T14:07:49.768Z" id="processingClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Processing Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Processing Classification is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:49.779Z" duration="40" execution="2022-08-30T14:07:49.799Z" id="orbitReferenceClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Orbit Reference Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : measurementOrbitReference</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:49.841Z" duration="19" execution="2022-08-30T14:07:49.857Z" id="frameSetClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if MeasurementFrameSet Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : measurementFrameSet</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:49.878Z" duration="27" execution="2022-08-30T14:07:49.940Z" id="hrefExist" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if all external references are present in the product directory. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">All external references are present in the product directory.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:49.969Z" duration="19" execution="2022-08-30T14:07:49.988Z" id="qualityInformationCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Quality Information Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:50.009Z" duration="20" execution="2022-08-30T14:07:50.027Z" id="frameSetCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if MeasurementFrameSet Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : measurementFrameSet</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:50.049Z" duration="4" execution="2022-08-30T14:07:50.061Z" id="checkSafeManifest" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Safe Manifest check. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Safe manifest present.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:50.067Z" duration="4" execution="2022-08-30T14:07:50.076Z" id="processingCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Processing Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Processing Category is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:50.082Z" duration="20" execution="2022-08-30T14:07:50.093Z" id="indexClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Index Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:50.115Z" duration="18" execution="2022-08-30T14:07:50.131Z" id="gridReferenceClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Grid Reference Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:50.151Z" duration="17" execution="2022-08-30T14:07:50.171Z" id="orbitReferenceCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Orbit Reference Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : measurementOrbitReference</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:50.190Z" duration="514" execution="2022-08-30T14:07:50.201Z" id="checkMetadata" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Metadata file check. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Metadata file is present.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:50.721Z" duration="13" execution="2022-08-30T14:07:50.729Z" id="informationCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Information Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : S2_Level-1C_Datastrip_Information</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:50.744Z" duration="15" execution="2022-08-30T14:07:50.754Z" id="annotationClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Annotation Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:57.990Z" duration="1" execution="2022-08-30T14:07:57.997Z" id="Start_Stop_Time" item="S2B_OPER_MTD_L1C_DS_2BPS_20220830T125633_S20220830T104909.xml" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/S2B_OPER_MTD_L1C_DS_2BPS_20220830T125633_S20220830T104909.xml" name="Check start/stop time validity. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Sensing period is valid. </message>
+                    <extraValues>
+                        <value name="SENSING_START">2022-08-30T10:49:09.311Z</value>
+                        <value name="SENSING_STOP">2022-08-30T11:00:20.356Z</value>
+                    </extraValues>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.010Z" duration="12" execution="2022-08-30T14:07:58.017Z" id="extraData" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Extra Files are present in product directory. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Extra Files found in product directory.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.030Z" duration="3" execution="2022-08-30T14:07:58.037Z" id="processingExists" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Processing metadata is present. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Processing exists.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.041Z" duration="8" execution="2022-08-30T14:07:58.047Z" id="gridReferenceCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Grid Reference Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.056Z" duration="2" execution="2022-08-30T14:07:58.062Z" id="platformCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Platform Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Platform Category is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.065Z" duration="2" execution="2022-08-30T14:07:58.070Z" id="acquisitionPeriodExists" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Acquisition Period is present. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Acquisition Period exists.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.073Z" duration="9" execution="2022-08-30T14:07:58.079Z" id="annotationCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Annotation Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.089Z" duration="9" execution="2022-08-30T14:07:58.095Z" id="qualityInformationClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Quality Information Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.105Z" duration="3" execution="2022-08-30T14:07:58.111Z" id="acquisitionPeriodCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Acquisition Period Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Acquisition Period Category is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.115Z" duration="10" execution="2022-08-30T14:07:58.123Z" id="informationClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Information Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : S2_Level-1C_Datastrip_Information</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.134Z" duration="11" execution="2022-08-30T14:07:58.142Z" id="indexCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Index Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.153Z" duration="9" execution="2022-08-30T14:07:58.162Z" id="schemaCategory" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Schema Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : S2_Level-1C_Datastrip_Schema, Inventory_Metadata_Schema, OLQC_Report_Schema</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.172Z" duration="45" execution="2022-08-30T14:07:58.187Z" id="idReferences" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if all the Id References defined in the product are valid. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">All the Id References defined in the product are valid.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.234Z" duration="6" execution="2022-08-30T14:07:58.243Z" id="platformClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Platform Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Platform Classification is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-08-30T14:07:58.251Z" duration="4" execution="2022-08-30T14:07:58.260Z" id="acquisitionPeriodClassification" item="S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00" itemURL="/mnt/shared/S2-EXECUTION-CONTEXT-csgroup/77c38ece-2d8e-4ecb-a59c-04bcdfaf5cd0/RefiningFinalize/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2B_OPER_MSI_L1C_DS_2BPS_20220830T125633_S20220830T104909_N04.00/" name="Checks if Acquisition Period Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Acquisition Period Classification is Ok.</message>
+                </check>
+            </checkList>
+        </report>
+    </Data_Block>
+</Earth_Explorer_File>

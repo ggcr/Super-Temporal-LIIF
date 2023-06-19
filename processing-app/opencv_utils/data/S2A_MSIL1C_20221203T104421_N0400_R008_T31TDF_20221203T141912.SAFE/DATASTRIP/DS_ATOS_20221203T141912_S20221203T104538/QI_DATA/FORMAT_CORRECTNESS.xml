@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Earth_Explorer_File xmlns="http://gs2.esa.int/DATA_STRUCTURE/olqcReport">
+    <Earth_Explorer_Header>
+        <Fixed_Header>
+            <File_Name>S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_FORMAT_CORRECTNESS_report.xml</File_Name>
+            <File_Description>Report produced by OLQC-SC</File_Description>
+            <Notes></Notes>
+            <Mission>S2A</Mission>
+            <File_Class>OPER</File_Class>
+            <File_Type>REP_OLQCPA</File_Type>
+            <Validity_Period>
+                <Validity_Start>UTC=2022-08-30T00:25:00</Validity_Start>
+                <Validity_Stop>UTC=2100-01-01T00:00:00</Validity_Stop>
+            </Validity_Period>
+            <File_Version>2</File_Version>
+            <Source>
+                <System>OLQC-SC</System>
+                <Creator>OLQC-SC</Creator>
+                <Creator_Version>05.01.00</Creator_Version>
+                <Creation_Date>UTC=2022-12-03T15:56:19</Creation_Date>
+            </Source>
+        </Fixed_Header>
+    </Earth_Explorer_Header>
+    <Data_Block type="xml">
+        <report gippVersion="1.0" globalStatus="PASSED" date="2022-12-03T15:56:19.561Z">
+            <checkList>
+                <parentID>S2A_OPER_GIP_OLQCPA_MPC__20220715T000042_V20220830T002500</parentID>
+                <name>FORMAT_CORRECTNESS</name>
+                <version>1.0</version>
+                <item url="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" className="PDI Level 1C Datastrip Folder" name="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" class="http://www.esa.int/s2#pdi_level_1c_datastrip_container"/>
+                <check>
+                    <inspection creation="2022-12-03T15:56:18.838Z" duration="355" execution="2022-12-03T15:56:19.201Z" id="schemaCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Schema Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : S2_Level-1C_Datastrip_Schema, Inventory_Metadata_Schema, OLQC_Report_Schema</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:19.563Z" duration="25" execution="2022-12-03T15:56:19.621Z" id="platformClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Platform Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Platform Classification is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:19.647Z" duration="124" execution="2022-12-03T15:56:19.701Z" id="extraData" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Extra Files are present in product directory. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Extra Files found in product directory.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:22.807Z" duration="0" execution="2022-12-03T15:56:22.869Z" id="Start_Stop_Time" item="S2A_OPER_MTD_L1C_DS_ATOS_20221203T141912_S20221203T104538.xml" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/S2A_OPER_MTD_L1C_DS_ATOS_20221203T141912_S20221203T104538.xml" name="Check start/stop time validity. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Sensing period is valid. </message>
+                    <extraValues>
+                        <value name="SENSING_START">2022-12-03T10:45:38.828Z</value>
+                        <value name="SENSING_STOP">2022-12-03T10:53:02.584Z</value>
+                    </extraValues>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:25.583Z" duration="89" execution="2022-12-03T15:56:25.622Z" id="qualityInformationClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Quality Information Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:25.712Z" duration="39" execution="2022-12-03T15:56:25.728Z" id="hrefExist" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if all external references are present in the product directory. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">All external references are present in the product directory.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:25.769Z" duration="3" execution="2022-12-03T15:56:25.774Z" id="processingCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Processing Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Processing Category is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:25.778Z" duration="9" execution="2022-12-03T15:56:25.783Z" id="acquisitionPeriodCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Acquisition Period Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Acquisition Period Category is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:25.795Z" duration="6" execution="2022-12-03T15:56:25.810Z" id="processingExists" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Processing metadata is present. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Processing exists.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:25.817Z" duration="75" execution="2022-12-03T15:56:25.825Z" id="indexCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Index Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:25.901Z" duration="103" execution="2022-12-03T15:56:25.909Z" id="informationClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Information Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : S2_Level-1C_Datastrip_Information</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.013Z" duration="42" execution="2022-12-03T15:56:26.019Z" id="annotationClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Annotation Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.062Z" duration="46" execution="2022-12-03T15:56:26.068Z" id="indexClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Index Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.115Z" duration="36" execution="2022-12-03T15:56:26.121Z" id="frameSetClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if MeasurementFrameSet Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : measurementFrameSet</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.159Z" duration="91" execution="2022-12-03T15:56:26.179Z" id="idReferences" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if all the Id References defined in the product are valid. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">All the Id References defined in the product are valid.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.271Z" duration="37" execution="2022-12-03T15:56:26.277Z" id="orbitReferenceClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Orbit Reference Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : measurementOrbitReference</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.315Z" duration="6" execution="2022-12-03T15:56:26.319Z" id="processingClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Processing Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Processing Classification is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.332Z" duration="11" execution="2022-12-03T15:56:26.339Z" id="gridReferenceCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Grid Reference Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.405Z" duration="220" execution="2022-12-03T15:56:26.413Z" id="checkMetadata" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Metadata file check. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Metadata file is present.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.635Z" duration="3" execution="2022-12-03T15:56:26.644Z" id="acquisitionPeriodClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Acquisition Period Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Acquisition Period Classification is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.647Z" duration="42" execution="2022-12-03T15:56:26.657Z" id="qualityInformationCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Quality Information Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.699Z" duration="66" execution="2022-12-03T15:56:26.705Z" id="frameSetCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if MeasurementFrameSet Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : measurementFrameSet</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.772Z" duration="13" execution="2022-12-03T15:56:26.776Z" id="checkSafeManifest" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Safe Manifest check. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Safe manifest present.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.790Z" duration="9" execution="2022-12-03T15:56:26.794Z" id="acquisitionPeriodExists" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Acquisition Period is present. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Acquisition Period exists.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.804Z" duration="6" execution="2022-12-03T15:56:26.812Z" id="gridReferenceClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Grid Reference Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.819Z" duration="6" execution="2022-12-03T15:56:26.824Z" id="informationCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Information Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : S2_Level-1C_Datastrip_Information</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.831Z" duration="1" execution="2022-12-03T15:56:26.835Z" id="platformCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Platform Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Platform Category is Ok.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.837Z" duration="6" execution="2022-12-03T15:56:26.842Z" id="annotationCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Annotation Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">No Index classification in product.</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.849Z" duration="6" execution="2022-12-03T15:56:26.853Z" id="orbitReferenceCategory" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Orbit Reference Category is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Category ok for : measurementOrbitReference</message>
+                </check>
+                <check>
+                    <inspection creation="2022-12-03T15:56:26.860Z" duration="7" execution="2022-12-03T15:56:26.865Z" id="schemaClassification" item="S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00" itemURL="/mnt/nfs-l1-01/l1-processing/processing-id-18515-2022-12-03-14-39-08/TaskTable_20221203T143909/FORMAT_METADATA_DS_L1C/output/PDI_DS/S2A_OPER_MSI_L1C_DS_ATOS_20221203T141912_S20221203T104538_N04.00/" name="Checks if Schema Classification is correctly defined. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Classification ok for : S2_Level-1C_Datastrip_Schema, Inventory_Metadata_Schema, OLQC_Report_Schema</message>
+                </check>
+            </checkList>
+        </report>
+    </Data_Block>
+</Earth_Explorer_File>
