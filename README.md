@@ -79,7 +79,9 @@ A cross-platform application made for our own data processing. It is implemented
 
 * Functions to select any region by specifying a Bound of Coordinates:
 
-![Captura de pantalla 2023-04-06 a las 13 25 51](https://user-images.githubusercontent.com/57730982/230363458-57585250-6700-4ab6-a062-5d4fd1d31aef.png)
+<p align="center">
+<img width="450" alt="Group 12" src="https://user-images.githubusercontent.com/57730982/230363458-57585250-6700-4ab6-a062-5d4fd1d31aef.png">
+</p>
 
 * Save any generated files into your local disk.
 
