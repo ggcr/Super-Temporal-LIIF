@@ -12,11 +12,11 @@ The Open Earth Observation Hub is a web solution that simplifies access to data 
 
 ![Screenshot of the app](https://github.com/ggcr/open-EO-hub/blob/main/public/showcase_img.png)
 
-## What is it?
+### What is it?
 
 This is a multi-source API client for open-access and free Earth Observational Data. As time goes on we will add new features as well as new providers according to our needs. It is implemented with React. We do the user authentication behind the scenes for you so that the download of data is 1 click away from your browser!
 
-## Multiple Data Providers
+### Multiple Data Providers
 
 At the moment we are getting data from Element 84 open STAC API in which we can access Sentinel S2A Cloud Optimized. And the brand new Copernicus Data Space Ecosystem API from the European Space Agency (ESA) in which we can access Sentinel 1, Sentinel 2, Sentinel 3, Sentinel 5P, Landsat 5, Landsat 7 and Landsat 8 data.
 
@@ -25,7 +25,7 @@ At the moment we are getting data from Element 84 open STAC API in which we can 
 </p>
 
 
-## Capabilities
+### Capabilities
 
 * Interactive map of the whole world.
 * Search multiple providers and all their offered products:
@@ -53,7 +53,7 @@ A cross-platform application made for our own data processing. It is implemented
 
 ![Captura de pantalla 2023-03-06 a las 10 43 34](https://user-images.githubusercontent.com/57730982/223074096-e2bced10-127a-4aa1-921e-3a131519bfa8.png)
 
-## Capabilities
+### Capabilities
 
 * Interactive map of the whole world.
 
@@ -100,7 +100,7 @@ Traditionally we represented images with a two-dimensional array of pixels in a 
 
 ![Captura de pantalla 2023-06-19 a las 18 24 56](https://github.com/ggcr/TFG-CristianGutierrez/assets/57730982/2ecdb70d-b86c-48d5-a8f6-f82e4bfaf52a)
 
-## Other: Utils
+### Other: Utils
 
 - Deployed `utils` folder which contains new updated scripts, re-wroted:
   - `utils/data-adaptation.py` Pre-process and data adaptation of histogram matching, made a mechanism to do all the adaptation and let the user choose the best with labels.
