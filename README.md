@@ -1,6 +1,6 @@
 # End-to-End Framework for Continuous Space-Time Super-Resolution on Remote Sensing data
 
-In Remote Sensing, much effort has been dedicated to the Super-Resolution field to overcome physical sensors limitations, and Deep Learning has vastly surpassed Interpolation and Reconstruction based methods. Spatial and Multi-Spectral based methods are commonly pre-dominant in the field, and, motivated by the recent success stories of 3D spatial modeling with Implicit Neural Representation, new continuous image modeling methods are appearing. In this present work, we take advantage of already existing Spatial and Spectral techniques and Learning Continuous Image Representation with Local Implicit Image Function (LIIF) by adding the Temporal dimension into the problem, leaning towards a continuous interpolation model of space and time as a first approximation to the total modelization.
+In Remote Sensing, much effort has been dedicated to the Super-Resolution field to overcome physical sensors limitations, and Deep Learning has vastly surpassed Interpolation and Reconstruction based methods. Spatial and Multi-Spectral based methods are commonly pre-dominant in the field, and, motivated by the recent success stories of 3D spatial modeling with Implicit Neural Representation, new continuous image modeling methods are appearing. In this present work, we take advantage of already existing Spatial and Spectral techniques and Learning Continuous Image Representation with Local Implicit Image Function (LIIF) by adding the Temporal dimension into the problem, leaning towards a continuous interpolation model of space and time as a first approximation to the total modelization.![](#demo)
 
 https://github.com/ggcr/Super-Temporal-LIIF/assets/57730982/1b90b0b9-cb80-45b9-b010-d9d7328ac58f
 
@@ -126,5 +126,6 @@ This process resulted in Temporal LIIF, a model capable of interpolating any sca
 ---
 
 ![Group 17](https://github.com/ggcr/Super-Temporal-LIIF/assets/57730982/283c1adb-4a80-40c2-a2a9-9fa61d435fc5)
+
 
 
