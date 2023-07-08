@@ -2,9 +2,7 @@
 
 In Remote Sensing, much effort has been dedicated to the Super-Resolution field to overcome physical sensors limitations, and Deep Learning has vastly surpassed Interpolation and Reconstruction based methods. Spatial and Multi-Spectral based methods are commonly pre-dominant in the field, and, motivated by the recent success stories of 3D spatial modeling with Implicit Neural Representation, new continuous image modeling methods are appearing. In this present work, we take advantage of already existing Spatial and Spectral techniques and Learning Continuous Image Representation with Local Implicit Image Function (LIIF) by adding the Temporal dimension into the problem, leaning towards a continuous interpolation model of space and time as a first approximation to the total modelization.
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/57730982/223851674-17124b5f-bafa-4a7c-84e2-2a42a2dc6420.png" width="520">
-</p>
+https://github.com/ggcr/Super-Temporal-LIIF/assets/57730982/1b90b0b9-cb80-45b9-b010-d9d7328ac58f
 
 # Open Earth Observation Hub (Web Service)
 
@@ -98,13 +96,12 @@ In recent years efforts have been devoted to finding a continuous image represen
 
 Traditionally we represented images with a two-dimensional array of pixels in a discrete manner, but LIIF is built from the promise that each pixel of an image can be described as a continuous function of its coordinates and its neighbour features. The main advantage of this is that with our new continuous representation we are no longer constrained by resolution, and we can generate **arbitrary resolutions** for any image, even for upsample scales that the model wasn’t even trained.
 
-![Captura de pantalla 2023-06-19 a las 18 24 56](https://github.com/ggcr/TFG-CristianGutierrez/assets/57730982/2ecdb70d-b86c-48d5-a8f6-f82e4bfaf52a)
+![Captura de pantalla 2023-07-01 a las 10 11 00](https://github.com/ggcr/Super-Temporal-LIIF/assets/57730982/3f133f2c-3191-414a-aa8c-800c9e019285)
 
 ### Other: Utils
 
 - Deployed `utils` folder which contains new updated scripts, re-wroted:
   - `utils/data-adaptation.py` Pre-process and data adaptation of histogram matching, made a mechanism to do all the adaptation and let the user choose the best with labels.
-    ![Captura de pantalla 2023-06-10 a las 16 38 03](https://github.com/ggcr/TFG-CristianGutierrez/assets/57730982/f185e8ff-9246-4d67-8e5b-20e3875ea061)
   - `utils/temporal-5-subset.py` The temporal checking (Equation 5 TFG document), for all the images. It is really fast.
   - `utils/interpolation.py` Previous Bilinear interpolation (PIL, skimage...)
   - `utils/bicubic-torch.py` Bicubic interpolation made with Torchvision and PIl. Much much easier, fast, and better.
@@ -118,8 +115,16 @@ We achieved the building, from the ground up, of an End-to-End Framework for Con
 
 This process resulted in Temporal LIIF, a model capable of interpolating any scale and temporal factor, hence, an infinite interpolation model of space and time for Remote Sensing.
 
+![Captura de pantalla 2023-07-08 a las 11 00 33](https://github.com/ggcr/Super-Temporal-LIIF/assets/57730982/f3370e49-c76b-4477-aaa4-cb06f19c0217)
+
+---
+
 <p align="center">
-<img width="650" alt="Group 12" src="https://github.com/ggcr/TFG-CristianGutierrez/assets/57730982/6479fca5-7024-4bac-960c-585a4031a65c">
+<img width="702" alt="Group 16" src="https://github.com/ggcr/Super-Temporal-LIIF/assets/57730982/531bbba9-942c-4fb2-a48f-160c7573c5a6">
 </p>
 
-![result_models](https://github.com/ggcr/TFG-CristianGutierrez/assets/57730982/3b2e430f-1f40-4f05-8572-131e62ffa474)
+---
+
+![Group 17](https://github.com/ggcr/Super-Temporal-LIIF/assets/57730982/283c1adb-4a80-40c2-a2a9-9fa61d435fc5)
+
+
