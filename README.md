@@ -22,73 +22,11 @@ At the moment we are getting data from Element 84 open STAC API in which we can 
 <img width="500" alt="Group 12" src="https://i.gyazo.com/0bcad2537c3e0321d53835fe8ce11df6.png">
 </p>
 
-
-### Capabilities
-
-* Interactive map of the whole world.
-* Search multiple providers and all their offered products:
-    * Element84 STAC API
-        - Sentinel SL2 Cloud Optimized
-    * Copernicus Data Space Ecosystem
-        - Sentinel 1
-        - Sentinel 2
-        - Sentinel 3
-        - Sentinel SP
-        - Landsat 7
-        - Landsat 8
-    * Microsoft Planetary API
-        - Copernicus DEM Glo-30
-        - Copernicus DEM Glo-90
-* Filter by position (Latitude, Longitude) interactively with the Leaflet Map.
-* Filter by Date of Acquisition, by Start-date, End-date or both.
-* Pagination support for all the results.
-* Display General Info of the Constellation, the Mission, Date of Acquisition and pre-processing percentages of the contents of each result.
-* Download any band, metadata or thumbnail asynchronously at any time.
-
 # Cross-platform Processing Application
 
 A cross-platform application made for our own data processing. It is implemented with ElectronJS and it relies heavily with GDAL. This was built as a native application for the easy access to big local files.
 
 ![Captura de pantalla 2023-03-06 a las 10 43 34](https://user-images.githubusercontent.com/57730982/223074096-e2bced10-127a-4aa1-921e-3a131519bfa8.png)
-
-### Capabilities
-
-* Interactive map of the whole world.
-
-* Drag and Drop your Sentinel samples and with the help of the Metadata it will be positioned in screen. Making the necesary conversion of coordinate system.
-
-* Square Selection and Crop for any number of samples asynchronously.
-
-<p align="center">
-<img width="500" alt="Group 12" src="https://i.gyazo.com/d58733d31bf909d74c8459c20d112ee2.jpg">
-</p>
-
-* Shapefile support for displaying the selected region and cropping.
-
-<p align="center">
-<img width="500" alt="Group 12" src="https://i.gyazo.com/abf5a48f5354d315f797c6fe6230b5ff.png">
-</p>
-
-* Multiple providers for the Map (OSM, OpenTopography, ESRI Satellite).
-
-* Added support for Linear Interpolation, Nearest-Neighbour Interpolation, Bicubic Interpolation...
-* Create GIFs for multiple Interpolations.
-
-<p align="center">
-<img width="450" alt="Group 12" src="https://user-images.githubusercontent.com/57730982/226204754-016d026e-0041-41b3-bf29-41a1875b53f4.png">
-</p>
-
-<p align="center">
-<img width="450" alt="Group 12" src="https://user-images.githubusercontent.com/57730982/226205234-2c7c7257-7f06-4677-a06c-e381e591cf18.gif">
-</p>
-
-* Functions to select any region by specifying a Bound of Coordinates:
-
-<p align="center">
-<img width="450" alt="Group 12" src="https://user-images.githubusercontent.com/57730982/230363458-57585250-6700-4ab6-a062-5d4fd1d31aef.png">
-</p>
-
-* Save any generated files into your local disk.
 
 # Temporal LIIF
 
