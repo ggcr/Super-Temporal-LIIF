@@ -10,11 +10,7 @@ The Open Earth Observation Hub is a web solution that simplifies access to data 
 
 ![Screenshot of the app](https://github.com/ggcr/open-EO-hub/blob/main/public/showcase_img.png)
 
-### What is it?
-
-This is a multi-source API client for open-access and free Earth Observational Data. As time goes on we will add new features as well as new providers according to our needs. It is implemented with React. We do the user authentication behind the scenes for you so that the download of data is 1 click away from your browser!
-
-### Multiple Data Providers
+#### Multiple Data Providers
 
 At the moment we are getting data from Element 84 open STAC API in which we can access Sentinel S2A Cloud Optimized. And the brand new Copernicus Data Space Ecosystem API from the European Space Agency (ESA) in which we can access Sentinel 1, Sentinel 2, Sentinel 3, Sentinel 5P, Landsat 5, Landsat 7 and Landsat 8 data.
 
